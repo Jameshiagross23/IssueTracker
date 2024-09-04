@@ -1,0 +1,32 @@
+{
+  "name": "issuetracker",
+  "version": "1.0.0",
+  "description": "Check Your Balance Here!",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start-dev": "nodemon -r dotenv/config index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jameshiagross23/IssueTracker.git"
+  },
+  "keywords": [
+    "Ticket",
+    "Master",
+    "Counter"
+  ],
+  "author": "Jameshia R Gross",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jameshiagross23/IssueTracker/issues"
+  },
+  "homepage": "https://github.com/Jameshiagross23/IssueTracker#readme",
+  "dependencies": {
+    "debug": "^4.3.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
